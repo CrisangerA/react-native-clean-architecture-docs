@@ -3,23 +3,28 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'React Native Clean Architecture',
+  title: 'React Native Clean Architecture (Docs)',
   tagline: 'Desarrolla aplicaciones de calidad profesional con React Native',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://crisangera.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  //organizationName: 'Crisanger', // Usually your GitHub org/user name.
+  //projectName: 'React Native Clean Architecture (Docs)', // Usually your repo name.
+  projectName: 'crisangera.github.io',
+  organizationName: 'crisangera',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  deploymentBranch: 'production',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
