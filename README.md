@@ -39,3 +39,10 @@ USE_SSH=true && CURRENT_BRANCH=gh-pages && GIT_USER=crisangera bun run deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Config for deploy
+rm -rf build
+bun run build
+rm -rf .docusaurus .vscode blog docs node_modules src static .gitignore babel.config.js docusaurus.config.ts package-lock.json package.json README.md sidebars.ts tsconfig.json
+mv build/* ./*
+rm -rf build
