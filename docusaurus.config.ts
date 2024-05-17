@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'React Native Clean Architecture',
-  tagline: 'Desarrolla aplicaciones de calidad profesional con React Native',
+  title: 'React Native Clean Architecture (Docs)',
+  tagline: 'Guia para desarrollar aplicaciones profesionales con React Native',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

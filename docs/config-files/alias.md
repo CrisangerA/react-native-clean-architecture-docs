@@ -3,12 +3,12 @@ sidebar_position: 1
 ---
 
 # 1.1 Importación con alias
-Instalar dependencia necesaria:
+Instalar dependencias necesarias:
 ```bash
 bun add -D babel-plugin-module-resolver metro-react-native-babel-preset
 ```
 
-Si aun no tienes esta configuración previa puedes leer la documentación oficial de react native en donde se indica paso a paso como agregar los alias. [Documentación](https://reactnative.dev)
+Si aun no tienes esta configuración previa puedes leer la documentación oficial de react native en donde se indica paso a paso como agregar los alias. [Documentación](https://reactnative.dev/docs/typescript#using-custom-path-aliases-with-typescript)
 
 - ```json title="tsconfig.json"
   {

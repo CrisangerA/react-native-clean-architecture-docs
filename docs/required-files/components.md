@@ -3,7 +3,13 @@ sidebar_position: 3
 ---
 
 # 2.3 Components
-Componentes reutilizables en toda la aplicación
+Componentes reutilizables en toda la aplicación. Puede descargar la carpeta completa o archivo por archivo segun le convenga. [Descargar carpeta completa](https://reactnative.dev/docs/speeding-ci-builds)
+- ./src/components
+  - [index.ts](https://reactnative.dev/docs/speeding-ci-builds)
+  - ./src/components/core
+    - [index.ts](https://reactnative.dev)
+    - [responsive.ts](https://reactnative.dev)
+
 
 ## Core
 Componentes base que no requieren dependencias adicionales

@@ -14,6 +14,15 @@ Para crear un nuevo crud completo nos apoyaremos del **CLI** utilizando el sigui
 rnca crud nameModule -i|--infra fetch|firebase|local
 ```
 
-Este comando creara una carpeta con el nombre: **nameModule** en la carpeta de @modules/, incluye su carpeta de dominio, aplicacion e infrasestructura con el repositorio especificado (firebase por defecto)
+Este comando se encargara de crear todo el codigo necesario para un nuevo modulo. Salida del comando:
+
+- src/modules/moduleName
+  - application
+  - domain
+  - infrastrucure
+- src/screens/moduleName
+  - ListView
+  - Detail
+  - Form
 
 Adicionalmente tambien creara las vistas necesarias para manejar el CRUD, incluye 3 vistas: Listar todos los elementos, Ver el detalle de un elemento, Formulario para crear o editar elemento 

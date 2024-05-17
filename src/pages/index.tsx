@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Empezar ahora tutorial - 5min ⏱️
+            Empezar ahora - 5min ⏱️ tutorial
           </Link>
         </div>
       </div>
@@ -29,11 +29,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  //const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Desarrollo de aplicaciones moviles profesionales con react native y clean architecture">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
