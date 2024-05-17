@@ -44,5 +44,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 rm -rf build
 bun run build
 rm -rf .docusaurus .vscode blog docs node_modules src static .gitignore babel.config.js docusaurus.config.ts package-lock.json package.json README.md sidebars.ts tsconfig.json
-mv build/* ./*
+mv build/* .
 rm -rf build
