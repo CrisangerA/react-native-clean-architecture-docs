@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
-# Como manejar la navegación
+# Cómo manejar la navegación
 
 La libreria que recomiendo para la navegacion es: [React Navigation](https://reactnavigation.org)
 
