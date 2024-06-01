@@ -4,6 +4,10 @@ sidebar_position: 1
 # Cómo utilizar el CLI
 Actualmente el cli te permite crear dos scaffold, para modulo y para crud. Ambos reciben parametros opcionales, a continuación te indico sus opciones y posibilidades:
 
+:::tip[RNCA CLI]
+CLI inspirado en las herramientas de desarrollo del ecosistema de .Net, en donde se puede especificar un DataSource (Modelo) del cual se quiere hacer todo un CRUD, el IDE VisualStudio se encarga de generar los archivos de la capa logica (API) y la capa visual (User Interface/Html5) y conectarlos entre si de tal forma que solo con un par de clics el desarrollador ya ha conseguido hacer un CRUD.
+:::
+
 ## Opciones y argumentos
 
 | Comando | Opciones                   | Description                           |
