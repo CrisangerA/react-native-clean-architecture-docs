@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_native=self.webpackChunkreact_native||[]).push([[2462],{4:e=>{e.exports=JSON.parse('{"permalink":"/react-native-clean-architecture-docs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

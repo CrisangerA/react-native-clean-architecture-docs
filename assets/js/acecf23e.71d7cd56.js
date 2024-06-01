@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_native=self.webpackChunkreact_native||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/react-native-clean-architecture-docs/blog","blogTitle":"Blog"}')}}]);
