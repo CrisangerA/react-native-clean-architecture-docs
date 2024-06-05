@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_native=self.webpackChunkreact_native||[]).push([[7363],{8050:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/react-native-clean-architecture-docs/blog/tags/docusaurus","allTagsPath":"/react-native-clean-architecture-docs/blog/tags","count":4,"unlisted":false}')}}]);
