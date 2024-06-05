@@ -15,15 +15,15 @@ Para agilizar el desarrollo y evitar escribir codigo repetitivo (boilerplate) he
 
 ## Recomendaciones
 Te recomiendo seguir la guia de inicio en orden y de principio a fin:
-- 1 [Archivos de configuración (core)](./config-files/alias.md)
+- 1 . Archivos de configuración (core)
   - 1.1 [Importacion con alias](./config-files/alias.md)
-  - 1.2 [Scripts](./config-files/alias.md)
-  - 1.3 [Linter y formateo](./config-files/alias.md)
-- 2 [Archivos necesarios (utileria)](./required-files/config.md)
+  - 1.2 [Scripts](./config-files/scripts)
+  - 1.3 [Linter y formateo](./config-files/linter.md)
+- 2 . Archivos necesarios (utileria)
   - 2.1 [Configuración](./required-files/config.md)
-  - 2.2 [Estilos](./required-files/config.md)
-  - 2.3 [Componentes](./required-files/config.md)
-  - 2.4 [Modulo](./required-files/config.md)
+  - 2.2 [Estilos](./required-files/styles.md)
+  - 2.3 [Componentes](./required-files/components.md)
+  - 2.4 [Modulo](./required-files/modules.md)
 
 :::info[Archivos necesarios (utileria)]
 

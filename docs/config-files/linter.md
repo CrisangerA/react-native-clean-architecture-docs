@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# 1.2 Linter y formateo
+# 1.3 Linter y formateo
 Mantener sintaxis y estandares de codificacion
 
 Generalmente se utilizan formateadores de codigo y linters para prevenir errores
