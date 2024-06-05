@@ -22,6 +22,8 @@ Se recomienda utilizar algun tipo de linter y/o formateador de codigo. Esto es a
   ```
 - ```js title=".prettierrc.js"
   module.exports = {
+    bracketSameLine: false,
+    bracketSpacing: true,
     semi: true,
     singleQuote: true,
     trailingComma: 'all',
@@ -47,5 +49,20 @@ Se recomienda utilizar algun tipo de linter y/o formateador de codigo. Esto es a
       "source.organizeImports": "always"
     },
     "json.schemaDownload.enable": true
+  }
+  ```
+- ```json title="extensions.json"
+  {
+    "recommendations": [
+      "eamodio.gitlens",
+      "dbaeumer.vscode-eslint",
+      "kisstkondoros.vscode-gutter-preview",
+      "pkief.material-icon-theme",
+      "esbenp.prettier-vscode",
+      "tabnine.tabnine-vscode",
+      "dsznajder.es7-react-js-snippets",
+      "mgmcdermott.vscode-language-babel",
+      "usernamehw.errorl"
+    ]
   }
   ```
