@@ -1,7 +1,22 @@
 ---
 sidebar_position: 1
 ---
-# Cómo utilizar el CLI
+# Cómo iniciar con el CLI
+Si quieres evitar agregar todos los archivos necesarios a mano el CLI te puede ayudar. Justo despues de que ejecutes el comando: *"npx @react-native-community/cli@latest init AwesomeProject"* para iniciar un nuevo proyecto instala la dependencia de desarrollo:
+```bash
+bun add -D react_native_clean_arch_cli
+```
+Ejecuta el comando:
+```bash
+npm link
+```
+Ejecuta el comando:
+```bash
+rnca init
+```
+
+---
+
 Actualmente el cli te permite crear dos scaffold, para modulo y para crud. Ambos reciben parametros opcionales, a continuación te indico sus opciones y posibilidades:
 
 :::tip[RNCA CLI]

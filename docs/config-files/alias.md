@@ -14,13 +14,14 @@ Si aun no tienes esta configuración previa puedes leer la documentación oficia
   {
     "compilerOptions": {
       "paths": {
+        "@assets/*": ["./src/assets/*"],
         "@components/*": ["./src/components/*"],
-        "@modules/*": ["./src/modules/*"],
         "@config/*": ["./src/config/*"],
+        "@modules/*": ["./src/modules/*"],
         "@navigation/*": ["./src/navigation/*"],
         "@screens/*": ["./src/screens/*"],
-        "@assets/*": ["./src/assets/*"],
-        "@utils/*": ["./src/modules/shared/domain/utils/*"]
+        "@shared/*": ["./src/modules/shared/*"],
+        "@utils/*": ["./src/modules/shared/domain/utils/*"],
       }
     },
     "extends": "@react-native/typescript-config/tsconfig.json",
@@ -38,12 +39,13 @@ Si aun no tienes esta configuración previa puedes leer la documentación oficia
           root: ['./'],
           extensions: ['.ts', '.tsx', '.jsx', '.js', '.json'],
           alias: {
+            '@assets': './src/assets',
             '@components': './src/components',
-            '@modules': './src/modules',
             '@config': './src/config',
+            '@modules': './src/modules',
             '@navigation': './src/navigation',
             '@screens': './src/screens',
-            '@assets': './src/assets',
+            '@shared': ['./src/modules/shared'],
             '@utils': ['./src/modules/shared/domain/utils'],
           },
         },

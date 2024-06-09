@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'React Native Clean Architecture (Docs)',
-  tagline: 'Guia de recursos para desarrollar aplicaciones profesionales con React Native',
+  tagline: 'Guia de recursos para desarrollar aplicaciones con React Native',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
