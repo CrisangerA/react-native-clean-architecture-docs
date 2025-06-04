@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# Introduction
 
 ## Objetivo
 El objetivo principal de esta guía es recopilar un conjunto de buenas prácticas para desarrollar aplicaciones móviles con React Native utilizando el CLI (sin Expo), siguiendo la metodología de arquitectura limpia (DDD) y los principios SOLID.
@@ -29,11 +29,6 @@ Te recomiendo seguir la guia de inicio en orden y de principio a fin:
   - 2.3 [Componentes](./required-files/components.md)
   - 2.4 [Modulo](./required-files/modules.md)
 
-:::info[Archivos necesarios (utileria)]
-
-Puede que no llegues a necesitar cada uno de los archivos aqui mencionados. En la página de cada carpeta se especifica cuales son requeridos o cuales se pueden descargar bajo demanda. Por el contrario **todos** los *archivos de configuración (core)* son necesarios
-
-:::
 
 ## Aclaraciones (a tener en cuenta)
 - Si no tienes idea o conocimiendo de lo que es Clean Architecture te recomiendo primero ilustrarte en el tema para saber si es lo mejor para tu desarrollo. Recursos a cerca de clean architecture:
@@ -41,7 +36,9 @@ Puede que no llegues a necesitar cada uno de los archivos aqui mencionados. En l
   - [Mejora tu código aplicando Clean Architecture](https://www.youtube.com/watch?v=bdnpXzgj1oY)
   - [Clean Architecture: La mejor forma de escalar y mantener tu código](https://www.youtube.com/watch?v=y3MWfPDmVqo)
 
-- Esta guia parte del echo de que iniciaste el proyecto de la siguiente forma [Get Started Without a Framework](https://reactnative.dev/docs/getting-started-without-a-framework):
+:::info[React Native Cli]
+Esta guia parte del echo de que iniciaste el proyecto de la siguiente forma [Get Started Without a Framework](https://reactnative.dev/docs/getting-started-without-a-framework), se utilizan las siguientes versiones:
 ```bash
-npx @react-native-community/cli@latest init AwesomeProject
+npx @react-native-community/cli@15.0.1 init AwesomeProject --version 0.78.0
 ```
+:::

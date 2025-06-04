@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
-# Cómo iniciar con el CLI
+# CLI (Upgrade required)
 Si quieres evitar agregar todos los archivos necesarios a mano el CLI te puede ayudar. Justo despues de que ejecutes el comando: *"npx @react-native-community/cli@latest init AwesomeProject"* para iniciar un nuevo proyecto instala la dependencia de desarrollo:
 ```bash
 bun add -D react_native_clean_arch_cli

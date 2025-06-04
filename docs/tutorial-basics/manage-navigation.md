@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Cómo manejar la navegación
+# Navegación (Upgrade required)
 
 La libreria que recomiendo para la navegacion es: [React Navigation](https://reactnavigation.org)
 
