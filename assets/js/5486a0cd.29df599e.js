@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_native=self.webpackChunkreact_native||[]).push([[5752],{6018:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/react-native-clean-architecture-docs/blog/tags/facebook","allTagsPath":"/react-native-clean-architecture-docs/blog/tags","count":1,"unlisted":false}')}}]);
