@@ -4,17 +4,27 @@ sidebar_position: 3
 # Modulos
 
 ## 📂 `src/modules`
-
-Este directorio contiene los componentes reutilizables de la aplicación. Los componentes están organizados en subcarpetas según su propósito, como componentes básicos (`core`), formularios (`form`), y diseño de layout (`layout`).
+Este directorio contiene todos los modulos reutilizables de la aplicación.
 
 ---
 
+## Modulos base 
 ### 📂 `authentication`
-Esta carpeta contiene componentes básicos y reutilizables que forman la base de la interfaz de usuario.
+
+- Maneja la autenticación con Google Firebase
+- Implementa el patrón repositorio para operaciones de auth
+- Gestiona estados de autenticación y sesión
 
 ### 📂 `navigation`
-Esta carpeta contiene componentes básicos y reutilizables que forman la base de la interfaz de usuario.
+
+- Gestiona el enrutamiento de la aplicación
+- Separa rutas públicas y privadas
+- Implementa navegación basada en el estado de autenticación
 
 ### 📂 `user`
-Esta carpeta contiene componentes básicos y reutilizables que forman la base de la interfaz de usuario.
 
+- Gestiona la información y operaciones del usuario
+- Implementa CRUD de usuarios en Firestore
+- Maneja estados y persistencia de datos del usuario
+
+---
