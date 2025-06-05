@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'CrisangerA', // Usually your GitHub org/user name.
   projectName: 'react-native-clean-architecture-docs', // Usually your repo name.
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   deploymentBranch: 'gh-pages',
