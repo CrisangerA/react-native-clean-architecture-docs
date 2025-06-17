@@ -23,16 +23,32 @@ cp ../react-native-clean-architecture/index.js ./
 cp -r ../react-native-clean-architecture/.trae ./
 cp -r ../react-native-clean-architecture/.vscode ./
 ```
-- instalar dependencias y preparar git hooks
+1. instalar dependencias y preparar git hooks
 ```bash
 bun install && bun prepare
 ```
-- mantener el nombre que tenia el package.json
+2. instalar iconos en iOS
+```bash
+npx rnvi-update-plist package.json ios/[Your-App-Name]/Info.plist
+```
+3. instalar dependencias iOS
+```bash
+bun pod-install
+```
+4. mantener el nombre que tenia el package.json
 ```json title="package.json"
 name: "NameOfYourApplication",
 ```
 
-- Verificar que la aplicacion ejecuta correctamente en android y ios
+TODO:
+Para ejecutar requiere la configuracion de firebase ya que se necesitan los archivos de configuracion
+mover a esta seccion la configuracion del firebase
+Verificar que la aplicacion ejecuta correctamente en android y ios
+Aqui se debe poder hacer la primera ejecucion de la aplicacion y debe aparecer la view de React Native por default.
+TODO: Validar cuantas ejecuciones si 3 o 2 mejor.
+Se supone que a este punto deberia poder ejecutar con todo instalado mostrando el landing de inicio de React Native ya que aun no se implementa ninguna libs
+
+5. Ejecutar la aplicacion
 ```bash
 bun start; bun android; bun ios
 ```
@@ -54,6 +70,10 @@ mkdir src/modules
 cp -r ../react-native-clean-architecture/src/modules/authentication ./src/modules
 cp -r ../react-native-clean-architecture/src/modules/navigation ./src/modules
 cp -r ../react-native-clean-architecture/src/modules/user ./src/modules
+```
+Segunda ejecucion con la arquitectura base implementada
+```bash
+bun start; bun android; bun ios
 ```
 
 ## Establecer Firebase
@@ -80,10 +100,17 @@ Al final agrega
 apply plugin: 'com.google.gms.google-services'
 ```
 
+## Establecer autenticacion OAuth
 ### 6. Credenciales GCloud
 En la consola de [Gcloud](https://console.cloud.google.com/apis/credentials) en Apis y servicios -> Credenciales agrega una nueva credencial de cliente OAuth para Android y iOS. A veces firebase crea automaticamente la de iOS revisar si no lo hizo automaticamente
 - 6.1 Obtener id de cliente Android
 - 6.2 Obtener id de cliente y scheme iOS
 
-Guardar estos datos de forma segura.
-Para ejemplos practicos se hace un mock en el archivo src/config/secure-store.json desde donde se pueden establecer los secretos
+> [!WARNING]
+> Guardar estos datos de forma segura. Para ejemplos practicos se hace un mock en el archivo src/config/secure-store.json desde donde se pueden establecer los secretos
+
+
+Tercera ejecucion con todo implementado
+```bash
+bun start; bun android; bun ios
+```

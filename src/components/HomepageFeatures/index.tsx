@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Integra el CLI para generar componentes, pantallas, módulos y más. Agiliza tu desarrollo
+        Inicia en solo unos sencillos pasos con la guia de inicio
       </>
     ),
   },

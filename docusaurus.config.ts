@@ -3,8 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'React Native Clean Architecture (Docs)',
-  tagline: 'Guia de recursos para desarrollar aplicaciones con React Native',
+  //title: 'React Native Clean Architecture (Docs)',
+  title: 'Guia de recursos para React Native',
+  tagline: 'Sistema de estilos, sistema de diseño, componentes personalizables y arquitectura modular',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,7 +75,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/CrisangerA/react-native-clean-architecture-cli',
+          href: 'https://github.com/CrisangerA/react-native-clean-architecture',
           label: 'GitHub',
           position: 'right',
         },
