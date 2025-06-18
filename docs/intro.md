@@ -10,7 +10,7 @@ Este template te permite inicializar una nueva aplicacion de react native y te a
 
 *Tambien incluye modulos base para usuario, autenticacion y navegacion para que sirvan como ejemplo de como trabajar con esta plantilla.*
 
-![](https://firebasestorage.googleapis.com/v0/b/mi-barbershop-dev.firebasestorage.app/o/PUBLIC%2FMenu.png?alt=media&token=976cac37-e429-447e-aa45-990e7a1ec458)
+![](../static/videos/rnca_preview_template_app.mov)
 
 La plantilla incluye las siguientes dependencias:
 
