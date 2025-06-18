@@ -3,31 +3,34 @@ sidebar_position: 2
 ---
 
 # Getting Started
-Esta guia parte del echo de que iniciaste el proyecto de la siguiente forma [Get Started Without a Framework](https://reactnative.dev/docs/getting-started-without-a-framework), se utilizan las siguientes versiones:
-```bash
-npx @react-native-community/cli@15.0.1 init AwesomeProject --version 0.78.0
-```
-## Script automaticamente
-El siguiente script automatiza todos los pasos que se deben hacer manualmente. El comando `init` automatiza todo el paso 1 de configuracion y el comando `scaffold` automatiza todo el paso 2 y 3.
+Puedes iniciar de manera automatica con el script que automatiza todos los pasos. O puedes seguir paso a paso donde se describen manualmente.
 
-### 1. Clonar repositorio
-Clonar repositorio [template](https://github.com/CrisangerA/react-native-clean-architecture) junto al proyecto con el que quieres trabajar
+## Script automaticamente
+
+### 1. Crear nueva aplicación
+Suponiendo que estas en un directorio por ejemplo: */Users/Pepito/Projects/Mobile*
 ```bash
 git clone git@github.com:CrisangerA/react-native-clean-architecture.git
 ```
-
 ```bash
-cd AwesomeProject
+npx @react-native-community/cli@15.0.1 init AwesomeProject --version 0.78.0
 ```
+
 
 ### 2. Extraer script
 Extrae el script `rnca.sh` del repositorio y copialo dentro de la carpeta de tu proyecto
 ```bash
-cp ../react-native-clean-architecture/rnca.sh .
+cp ./react-native-clean-architecture/rnca.sh ./AwesomeProject
+```
+```bash
+cd AwesomeProject
 ```
 
 ### 3. Inicializar plantilla
 1. Ejecutar script
+```bash
+chmod +x ./rnca.sh
+```
 ```bash
 ./rnca.sh init --name AwesomeProject
 ```
@@ -36,14 +39,16 @@ cp ../react-native-clean-architecture/rnca.sh .
 ```bash
 bun start
 ```
-2.1 Compilar para en Android
-```bash
-bun android
-```
-2.2 Compilar para en iOS. Te recomiendo que antes de ejecutar en ios abras el proyecto .xcworkspace con Xcode y selecciones un grupo para la firma de la aplicacion en **Signing & Capabilities -> Signin -> Team**.
-```bash
-bun ios
-```
+
+- 2.1 Compilar para Android
+    ```bash
+    bun android
+    ```
+
+- 2.2 Compilar para iOS. Te recomiendo que antes de ejecutar en ios abras el proyecto .xcworkspace con Xcode y selecciones un grupo para la firma de la aplicacion en **Signing & Capabilities -> Signin -> Team**.
+    ```bash
+    bun ios
+    ```
 
 3. Una vez que compruebes que tu aplicacion se ejecuta tanto en iOS como en Android puedes continuar con el comando:
 ```bash
